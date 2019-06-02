@@ -1,7 +1,11 @@
 import { CORRECT_GUESS } from "./actionTypes";
 
-export const correctGuess = () => {
-  return {
-    type: CORRECT_GUESS
-  };
+export const guessWord = guessedWord => {
+  return function(dispatch, getState) {};
 };
+
+// export const correctGuess = () => {
+//   return {
+//     type: CORRECT_GUESS
+//   };
+// };
